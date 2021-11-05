@@ -1,6 +1,4 @@
 <script lang="ts" setup>
-import { computed } from 'vue';
-
 const props = defineProps({ modelValue: { type: Boolean, required: true } });
 const emits = defineEmits(['update:modelValue']);
 
@@ -26,7 +24,7 @@ const drawer = computed({
         shrink
         class="row items-center no-wrap"
       >
-        My Quasar Template
+        MyQuasarTemplate
       </q-toolbar-title>
       <q-space />
       <div class="q-gutter-sm row items-center no-wrap">
