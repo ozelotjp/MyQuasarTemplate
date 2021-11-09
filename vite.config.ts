@@ -24,7 +24,6 @@ export default defineConfig({
     Components({
       resolvers: [QuasarResolver()],
       dts: 'src/types/components.d.ts',
-      directoryAsNamespace: true,
     }),
   ],
 
