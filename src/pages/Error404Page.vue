@@ -1,9 +1,3 @@
-<script lang="ts">
-export default {
-  name: 'Error404Page',
-};
-</script>
-
 <template>
   <q-page class="column items-center justify-center">
     <p>404 | Not Found</p>

@@ -4,7 +4,7 @@ const routes: RouteRecordRaw[] = [
   {
     path: '/',
     component: () => import('~/layouts/MainLayout.vue'),
-    children: [{ path: '', component: () => import('~/pages/Index.vue') }],
+    children: [{ path: '', component: () => import('~/pages/IndexPage.vue') }],
   },
 
   // Always leave this as last one,
@@ -12,7 +12,9 @@ const routes: RouteRecordRaw[] = [
   {
     path: '/:catchAll(.*)*',
     component: () => import('~/layouts/MainLayout.vue'),
-    children: [{ path: '', component: () => import('~/pages/Error404.vue') }],
+    children: [
+      { path: '', component: () => import('~/pages/Error404Page.vue') },
+    ],
   },
 ];
 
