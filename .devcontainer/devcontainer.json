@@ -40,5 +40,5 @@
   "mounts": [
     "source=node_modules,target=${containerWorkspaceFolder}/node_modules,type=volume"
   ],
-  "postCreateCommand": "apk update && apk add --no-cache git"
+  "postCreateCommand": "apk update && apk add --no-cache git && npm ci"
 }
