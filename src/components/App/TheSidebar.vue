@@ -1,10 +1,10 @@
 <script lang="ts" setup>
 const props = defineProps<{ modelValue: boolean }>();
-const emits = defineEmits<{ (e: 'update:modelValue', value: boolean): void }>();
+const emit = defineEmits<{ (e: 'update:modelValue', value: boolean): void }>();
 
 const drawer = computed({
   get: () => props.modelValue,
-  set: (value) => emits('update:modelValue', value),
+  set: (value) => emit('update:modelValue', value),
 });
 
 type Menu = {
