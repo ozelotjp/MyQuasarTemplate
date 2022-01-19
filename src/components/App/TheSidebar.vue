@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-const props = defineProps({ modelValue: { type: Boolean, required: true } });
-const emits = defineEmits(['update:modelValue']);
+const props = defineProps<{ modelValue: boolean }>();
+const emits = defineEmits<{ (e: 'update:modelValue', value: boolean): void }>();
 
 const drawer = computed({
   get: () => props.modelValue,

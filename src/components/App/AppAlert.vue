@@ -1,14 +1,7 @@
 <script lang="ts" setup>
-import { PropType } from 'vue';
-
-type Variant = 'positive' | 'negative' | 'info' | 'warning';
-
-const props = defineProps({
-  variant: {
-    type: String as PropType<Variant>,
-    required: true,
-  },
-});
+const props = defineProps<{
+  variant: 'positive' | 'negative' | 'info' | 'warning';
+}>();
 </script>
 
 <template>
