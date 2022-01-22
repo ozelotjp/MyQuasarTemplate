@@ -2,8 +2,9 @@
   "extends": [
     "config:base",
     ":preserveSemverRanges"
-  ],
-  "minor": {
-    "groupName": "all dependencies"
-  }
+ ],
+  "timezone": "Asia/Tokyo",
+  "schedule": "every weekend",
+  "groupName": "all",
+  "ignoreDeps": ["sass"]
 }
