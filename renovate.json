@@ -2,7 +2,11 @@
   "extends": ["config:base"],
   "timezone": "Asia/Tokyo",
   "schedule": "every weekend",
-  "groupName": "all",
-  "ignoreDeps": ["sass"],
-  "dependencyDashboard": false
+  "packageRules": [
+    {
+      "matchDepTypes: ["dependencies", "devDependencies"],
+      "groupName": "dependencies"
+    }
+  ],
+  "ignoreDeps": ["sass"]
 }
