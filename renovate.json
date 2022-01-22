@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "config:base",
+    ":preserveSemverRanges"
+ ],
+  "timezone": "Asia/Tokyo",
+  "schedule": "every weekend",
+  "groupName": "all",
+  "ignoreDeps": ["sass"]
+}
