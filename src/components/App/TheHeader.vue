@@ -24,7 +24,7 @@ const drawer = computed({
         shrink
         class="row items-center no-wrap"
       >
-        MyQuasarTemplate
+        <router-link to="/" class="title-link">MyQuasarTemplate</router-link>
       </q-toolbar-title>
       <q-space />
       <div class="q-gutter-sm row items-center no-wrap">
@@ -52,3 +52,10 @@ const drawer = computed({
     </q-toolbar>
   </q-header>
 </template>
+
+<style scoped>
+.title-link {
+  color: inherit;
+  text-decoration: none;
+}
+</style>
