@@ -8,5 +8,6 @@
       "groupName": "dependencies"
     }
   ],
-  "ignoreDeps": ["sass"]
+  "ignoreDeps": ["sass"],
+  "dependencyDashboard": false
 }
