@@ -2,7 +2,7 @@
 // We suggest you to commit this file into source control
 // Read more: https://github.com/vuejs/vue-next/pull/3399
 
-declare module 'vue' {
+declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     AppAlert: typeof import('./../components/App/AppAlert.vue')['default']
     TheHeader: typeof import('./../components/App/TheHeader.vue')['default']
