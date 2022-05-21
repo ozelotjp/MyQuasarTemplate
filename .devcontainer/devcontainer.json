@@ -10,7 +10,7 @@
     "formulahendry.auto-close-tag",
     "formulahendry.auto-rename-tag",
     // Vue
-    "johnsoncodehk.volar",
+    "vue.volar",
     // ESLint
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
