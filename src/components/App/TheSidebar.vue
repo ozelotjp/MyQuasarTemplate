@@ -1,4 +1,9 @@
 <script lang="ts" setup>
+import { useQuasar } from 'quasar';
+
+// temp fix: https://github.com/quasarframework/quasar/issues/13154
+defineExpose({ $q: useQuasar() });
+
 const props = defineProps<{ modelValue: boolean }>();
 const emit = defineEmits<{ (e: 'update:modelValue', value: boolean): void }>();
 
