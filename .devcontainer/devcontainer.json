@@ -5,17 +5,18 @@
   "remoteUser": "node",
   "remoteEnv": {
     "NPM_CONFIG_PREFIX": "/home/node/.npm-global"
-    // "PATH": "/home/node/.npm-global/bin:$PATH"
   },
   "postCreateCommand": "npm ci",
   // vscode
   "extensions": [
-    // Html
+    // HTML
     "formulahendry.auto-close-tag",
     "formulahendry.auto-rename-tag",
+    // CSS
+    "Syler.sass-indented",
     // Vue
     "vue.volar",
-    // ESLint
+    // Linter
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
     // Other
