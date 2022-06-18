@@ -24,7 +24,7 @@ const drawer = computed({
         shrink
         class="row items-center no-wrap"
       >
-        <router-link to="/" class="title-link">MyQuasarTemplate</router-link>
+        <router-link to="/" class="title-link">my-quasar-template</router-link>
       </q-toolbar-title>
       <q-space />
       <div class="q-gutter-sm row items-center no-wrap">
