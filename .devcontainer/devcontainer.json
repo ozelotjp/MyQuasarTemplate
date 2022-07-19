@@ -1,12 +1,9 @@
 {
+  "name": "${localWorkspaceFolderBasename}",
   // container
-  "image": "node:16",
-  "appPort": "8080:8080",
-  "remoteUser": "node",
-  "remoteEnv": {
-    "NPM_CONFIG_PREFIX": "/home/node/.npm-global"
-  },
-  "postCreateCommand": "npm ci",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "web",
+  "workspaceFolder": "/workspace",
   // vscode
   "extensions": [
     // HTML
