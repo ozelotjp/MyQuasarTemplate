@@ -12,14 +12,14 @@
   "dependencies": {
     "@quasar/extras": "1.14.3",
     "@quasar/vite-plugin": "1.0.10",
-    "@vitejs/plugin-vue": "2.3.3",
-    "@vueuse/core": "8.9.4",
+    "@vitejs/plugin-vue": "3.0.1",
+    "@vueuse/core": "9.0.2",
     "pinia": "2.0.16",
     "quasar": "2.7.5",
     "sass": "1.32.13",
     "unplugin-auto-import": "0.9.3",
     "unplugin-vue-components": "0.21.1",
-    "vite": "2.9.14",
+    "vite": "3.0.4",
     "vue": "3.2.37",
     "vue-router": "4.1.2"
   },
